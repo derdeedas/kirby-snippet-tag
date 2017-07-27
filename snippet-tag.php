@@ -7,10 +7,10 @@
       // get snippet file name
       $file = $tag->attr('snippet');
 
-      // convert attr array string to array
+      // convert data array-string to array
       $data = eval("return " . $tag->attr('data') . ";");
 
-      // check if $attr is array
+      // check if $data is array
       if(!is_array($data)){
         $data = [];
       };
