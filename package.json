@@ -1,0 +1,8 @@
+{
+  "name": "snippet-tag",
+  "description": "Kirby Snippet Tag",
+  "author": "David Schmidt <bastian@getkirby.com>",
+  "version": "1.0.0",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}
