@@ -9,17 +9,15 @@ This Kirby plugin allows you to use snippets in Kirbytext.
 1. Move `snippet-tag` folder into `site/plugins`.
 
 ## Basic Example
-Embeds `portfolio` snippet.
-
 ```md
 (snippet: portfolio)
 ```
+Embeds `portfolio` snippet.
 
 ## Advanced Example
-Embeds `portfolio` snippet with data `['limit' => 3]`
-
 ```md
 (snippet: portfolio data: ['limit' => 3])
 ```
+Embeds `portfolio` snippet with data `['limit' => 3]`
 
 Data is now available in the portfolio snippet by using `$limit`.
